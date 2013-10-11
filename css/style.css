@@ -2,6 +2,8 @@ body {
 	font-family: 'Nunito', sans-serif;
 	color:#FAF3BC;
 	background: #420600 url('img/bg-texture.jpg') repeat;
+  font-size: 1.125em;
+  font-weight: 100;
 }
 
 a {
@@ -9,25 +11,78 @@ a {
   text-decoration: none;
 }
 
+img {
+  max-width: 100%
+}
+
 h1 {
   font-size: 1.750em;
+  font-weight: 100;
   letter-spacing: -1.5px;
 }
 
 h2 {
+  font-weight: 100;
   font-size: 1.500em;
   color: #B4C34F;
+}
+
+h3 {
+  font-weight: 100;
+  font-size: 1.125em;
+  color: #ed6c85;
 }
 
 .btn {
   color: #FAF3BC;
   background: #4FB69F url('img/tecture.png') no-repeat right top;
-  margin: 40px 0px;
+  margin: 4% 0; /* 40px 0px */
   padding: 15px 30px;
   border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
   text-transform: uppercase;
 }
 
 .btn:hover {
   background-color: #4CC4A7;
 }
+
+ul.nav {
+  width: 100%;
+  margin: 20% 0 0 0; /* 120px 0 0 0 */
+  list-style-type: none;
+  float: right;
+}
+
+ul.nav li {
+  float: left;
+  margin-right: 4%; /* 40px */
+}
+
+ul.nav li a {
+  color: #FAF3BC;
+}
+
+#intro {
+  margin: 5% 0 7.5% 0; /* 50px 0 75px 0 */
+}
+
+#new-cupcakes img {
+  border: 8px solid #FAF3BC;
+  margin: 0 0 20px 0;
+}
+
+#featured-cupcake img {
+  border: 8px solid #FAF3BC;
+}
+
+#copyright {
+  border-top: 8px solid #2A0400;
+  padding: 1% 0px; /* 10px 0 */
+  margin: 1.5% 0px; /* 15px 0 */
+  text-align: center;
+}
+
+
+
